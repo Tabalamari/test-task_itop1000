@@ -31,7 +31,6 @@ function App() {
         setStatus("started");
     }
     function waitTimer() {
-        debugger;
         if (waiting !== 0) {
             const currentDate = Date.now();
             if (currentDate - waiting <= 300) {
